@@ -1,0 +1,131 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+  overflow: hidden;
+  background-color: #686e7a;
+  display:flex;
+  position:fixed;
+  width:100%;
+}
+.menu p {
+	color:white;
+	font-family:copperplate gothic light;
+	font-size:25px;
+	position:absolute;
+	margin-left:100px;
+	margin-top:35px;
+}
+#menu-butons a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left:5px;
+
+}
+
+#menu-butons a:hover {
+  background-color: #2781b2;
+}
+
+#menu-butons a.aktif {
+  background-color: #2781b2;
+  color: white;
+}
+#menu-butons {
+	margin-left:20%;
+	margin-top:20px;
+	
+}
+#logo {
+	height:75px;
+	width:75px;
+	margin:10px 30px;
+}
+
+body {
+	background-image:url(gitar.jpg)
+}
+#icerik {
+	width:75%;
+	height:100%;
+	margin-left:12.5%;
+	padding-top:7%;
+}
+#icerik ul {
+	list-style-type:none;
+	
+}
+#icerik ul li {
+	float:left;
+	
+}
+.gitar p {
+	text-align:center;
+	color:white;
+	font-family:Tahoma;
+}
+.gitar a {
+	text-decoration:none;
+}
+.gitar {
+	height:350px;
+	width:250px;
+	background-color:#515863;
+	margin:20px 10px;
+}
+.gitar-resim {
+	height:270px;
+	width:190px;
+	margin:15px 30px;
+}
+.gitar:hover {
+	background-color:#7593c4
+}
+.ders {
+	margin-bottom:50px;
+}
+#dersler {
+	width:75%;
+	margin-left:12.5%;
+	margin-top:60%;
+	height:20%;
+}
+#dersler h2 {
+	padding-top:20px;
+}
+footer {
+	width:100%;
+	height:90px;
+	background-color: #686e7a;
+	opacity:1
+}
+footer p {
+	color:white;
+	padding-top:35px;
+	font-size:20px;
+	padding-left:15px;
+}
+#sepet-foto {
+	width:25px;
+	height:25px;
+	margin-top:37px;
+	position:absolute;
+	margin-left:30%;
+
+}
+#sepet p {
+	font-family:Arial;
+	font-size:15px;
+	position:absolute;
+	margin-left:33%;
+}

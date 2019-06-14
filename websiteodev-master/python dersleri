@@ -1,0 +1,15 @@
+#kdCiro=toplam Satış-(hammadde Maliyet+Bakım Onarım Giderleri+sevkiyat Giderleri+Satın Alınan Hizmet giderleri)
+def kdCiro(tsm,hm,bog,sg,sahg):
+    "Katma Değer Ciro hesaplama fonksiyonudur"
+    kdCiro=tsm-(hm+bog+sg+sahg)
+    return kdCiro
+topSatMly=int(input("Toplam satış maliyet"))
+hamMly=int(input("hammade maliyeti"))
+bakOnGid=int(input("Bakım onarım giderleri"))
+sevGid=int(input("sevkiyat giderleri"))
+satAlGid=int(input("Satın alınan hizmet Giderleri"))
+
+#call a Function
+kdCiro(topSatMly,hamMly,bakOnGid,sevGid,satAlGid)
+
+print("Katma Değer Ciro:",kdCiro(topSatMly,hamMly,bakOnGid,sevGid,satAlGid))
